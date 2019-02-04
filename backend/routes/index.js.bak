@@ -1,0 +1,92 @@
+var express = require('express');
+var router = express.Router();
+var multer = require('multer')
+var mongoose = require('mongoose');
+var UserInfo = require('../models/userInfo')//.users
+
+/* GET home page. */
+<<<<<<< HEAD
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, './uploads');
+  },
+  filename: (req, file, cb) => {
+    const newFilename = `${file.originalname}`
+    console.log("company logo filename",newFilename)
+    cb(null, newFilename);
+  },
+=======
+router.get('/', function (req, res, next) {
+  res.render('index', { title: 'Express' });
+>>>>>>> development
+});
+
+const upload = multer({
+  storage
+});
+
+router.post('/companylogo', upload.single('selectedFile'), (req, res) => {
+  //console.log("Req : ",req);
+  //console.log("Res : ",res.file);
+  console.log("Printing filename", res.req.file.filename)
+  photostore = res.req.file.filename
+  console.log("Inside photos Post for company logo");
+})
+
+
+router.post('/:userId/profilepic', upload.single('selectedFile'), (req, res) => {
+  //console.log("Req : ",req);
+  //console.log("Res : ",res.file);
+  console.log("Printing filename",res.req.file.filename)
+  photostore=res.req.file.filename
+  console.log("Inside photos profilepic user :", req.params.userId);
+
+  UserInfo.update(
+      {_id : req.params.userId},
+      {
+          $set : 
+          {
+              profileImage: photostore
+          }
+      }
+  ).then(async (user)=>{
+      console.log("User updated:", user);
+      let image=await changeFormat(photostore)
+      res.end(image);
+
+  },(err)=>{
+              console.log("Error updating User.");
+              res.sendStatus(400).end();
+          })
+})
+
+
+
+ const changeFormat = (filename)=>  {
+  return new Promise((resolve, reject) => {
+      var file = filename;
+      var fileLocation = path.join(__dirname + '/uploads', file);
+      var img = fs.readFileSync(fileLocation);
+      var base64img = "data:image/jpg;base64, " + new Buffer(img).toString('base64');
+
+      if (base64img) {
+          resolve(base64img);
+      } else {
+          reject(base64img);
+      }
+  });
+};
+
+router.post('/download/:file(*)', (req, res) => {
+  console.log("Inside download file");
+  var file = req.params.file;
+  var fileLocation = path.join(__dirname + '/uploads', file);
+  var img = fs.readFileSync(fileLocation);
+  var base64img = new Buffer(img).toString('base64');
+  res.writeHead(200, {
+    'Content-Type': 'image/jpg'
+  });
+  res.end(base64img);
+});
+
+module.exports = router;

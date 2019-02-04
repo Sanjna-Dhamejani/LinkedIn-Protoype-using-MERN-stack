@@ -1,0 +1,244 @@
+.page{
+    background-color: #f5f5f5;
+       height: 150vh
+}
+
+.page2background{
+    background-color: #f5f5f5;
+    height:1600px;
+    margin-top: -20%;
+}
+
+.jobpostlinksnavbar{
+    text-align: center;
+    margin-left: 17.5%;
+    margin-top: 1.5%; 
+}
+
+.linkinjobpostheader{
+    color:white;
+    font-size: 15px;
+}
+
+.JobPostHeader{
+    margin-top: 11%;
+}
+
+.jobpostingcontainer{
+    background-color: #fff;
+    width:63%;
+    height:1200px;
+    margin-left: 2.5%;
+    margin-top: 24%;
+    box-shadow: 0 0 90px 0 rgba(0,0,0,.2);
+}
+
+.jobpostingcontainerlast{
+    background-color: #fff;
+    width:63%;
+    height:950px;
+    margin-left: 2.5%;
+    margin-top: 24%;
+    box-shadow: 0 0 90px 0 rgba(0,0,0,.2);
+}
+
+.finishpostjob{
+    height:60px;
+    width: 40%;
+    margin: 3% 0% 2.5% 55%;
+    border-radius: 2px;
+    background-color: rgb(17, 66, 129)
+}
+
+.headlinejobpost{
+    padding: 3.8%;
+    font-size: 30px;
+}
+
+.jobpostcompany{
+    margin: -2% 0% 3% 4.5%;
+    height:60px;
+    width:29%;
+    border:1.5px solid;
+}
+
+.jobposttitle{
+    width:28%;
+    height:60px;
+    margin: -9% 0% 3% 36%;
+    border:1.5px solid;
+}
+
+.postjobtipimage{
+    margin-top: -44%;
+    margin-bottom: -20%;
+}
+
+.jobpostlocation{
+    width:28%;
+    height:60px;
+    margin: -9.2% 0% 3% 67%;
+    border:1.5px solid;
+}
+
+.jobpostrow1label{
+    font-weight: 50px;
+    margin: -2% 0% 2.5% 4.5%;
+}
+
+.jobpostfunction{
+    height:60px;
+    width: 60%;
+    margin: -1.5% 0% 2.5% 3.5%;
+    border:1.5px solid;
+}
+
+.jobpostdescription{
+    margin: -1.5% 0% 2.5% 3%;
+    width:93%; 
+    height:160px;
+    border:1.5px solid;
+}
+
+.postjobtip{
+    width:24%;
+    margin-left: 69%;
+    margin-top: -74.5%;
+}
+
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 32%;
+    position: relative;
+    margin: 7% 0% 0% 34% 
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    left: 95px;
+    position: absolute;
+    content: " ";
+    width: 62%;
+    height: 1px;
+    background-color: #ccc;
+    z-index: 0;
+}
+
+.secondbtn{
+    border-color: #0073b1;
+    background-color: #f5f5f5
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    font-weight: 50px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    border:2px solid;
+}
+
+.btn-primary{
+    border-color: #0073b1;
+}
+
+.firstbtn{
+    border-color: #0073b1;
+    background-color: #f5f5f5
+}
+
+.postjobtippage3{
+    width:24%;
+    margin-left: 69%;
+    margin-top: -44%;
+}
+
+.nextBtn{
+    margin-top: 5%;
+    margin-left: 82%;
+    border-radius: 2px;
+    width:15%;
+    background-color: rgb(17, 66, 129)
+}
+
+.jobpostheadline1stpage{
+    margin-top: 8%;
+    margin-left: 9%;
+    margin-bottom: 4%;
+    color:#fff;
+    width:80%;
+    text-align: center;
+}
+
+/* .dropdown-toggle{
+    width:78%;
+    height:60px;
+} */
+
+.jobpostemployment{
+    width:29%;
+    border:1.5px solid;
+    height:60px;
+    margin: -8.5% 0% 3% 67%;
+}
+
+.hidethis{
+    visibility: hidden;
+}
+
+.applymethodjobpost{
+    width:28%;
+    height:60px;
+    margin: -2% 0% 3% 3%;
+    border:1.5px solid;   
+}
+
+.page1jobpostbutton{
+    margin-top: 1%;
+    margin-left: 6%;
+    width:87%;
+    background-color: #004b7c;
+    height: 60px;
+}
+
+.containerjobpostpage1{
+    background-color: #fff;
+    width:35%;
+    height:380px;
+    margin-left: 33%;
+    margin-top: 2%;
+    box-shadow: 0 0 90px 0 rgba(0,0,0,.2);
+}
+
+.jobpostpage1input{
+    width:87%;
+    margin-left: 6%;
+    margin-top: 3%;
+    height:60px;
+}
+
+.page1background{
+    background-color: #006097;
+    height:780px;
+    margin-top: -20%;
+}

@@ -1,0 +1,79 @@
+.myNetworkBackground{
+    background-color: #F5F5F5;
+    height:100vh;
+}
+.myConnections{
+    margin-top: 50px;
+    width: 65%; 
+    margin-left: 30%;
+    
+    border: 1px solid lightgrey;
+    text-align: center;
+    background-color: pink;
+}
+.myConnectionsUpper{
+    padding: 10%;
+    background-color: white;
+}
+.myConnectionsLower{
+    padding: 10%;
+    background-color: #d5dfec;
+}
+
+.myConnectionFontColor{
+    color:#0084bf;
+}
+.myConnectionButton{
+    color: #2e6da4;
+    background-color: white;
+    border-color: #2e6da4;
+    width: 90%;
+    border-radius: 0%;
+    align-content: center;
+}
+.myInvitations{ 
+    margin-top: 30px;
+    margin-left: 10%;
+    border: 1px solid lightgrey;
+    padding: 2%;
+    background-color: white; 
+ 
+}
+.userInvitations{
+    padding: 2%;
+}
+
+.appliedjobImage{
+    width: 80%;
+    height: 80%;
+}
+.savedjobImage{
+    width: 200%;
+    height: 200%;
+    padding-top: 80%;
+}
+.myads{ 
+    margin-top: 50px;
+    margin-right: 30%; 
+    margin-left: 5%;
+    width: 70%;  
+
+    border: 1px solid lightgrey; 
+
+    padding: 5%;
+    background-color: white;
+}
+.myadsborder{
+    text-align: center; 
+    margin-top: 30px;
+    margin-right: 30%; 
+    margin-left: 5%;
+    width: 70%;  
+}
+.aligntextleft{
+    text-align: left;
+}
+.submitbutton{
+    background-color: white;
+    border: none;
+}

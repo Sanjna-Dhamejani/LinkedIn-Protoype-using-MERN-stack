@@ -1,0 +1,106 @@
+.page{
+    background-color: #F5F5F5;
+    height: 200vh
+}
+
+.userdelete {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 400;
+}
+
+/* Hide the browser's default radio button */
+.userdelete input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+/* On mouse-over, add a grey background color */
+.userdelete:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.userdelete input:checked ~ .checkmark {
+    background-color: rgb(51, 114, 167);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.userdelete input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.userdelete .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.userdeleteh2{
+    margin-left: 5%;
+}
+
+.userdeletepandb{
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.userdeleteoptions{
+    margin-left: -13%;
+    margin-top: 1%;
+}
+
+.userdeletefeedback{
+    margin-left: 5%;
+    width: 70%;
+    height:150px;
+    border-radius: 2px;
+    border: 1px solid;
+}
+
+.backuserdelete{
+    border-radius: 2px;
+    color: rgb(51, 114, 167);
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.userdeletebutton{
+    margin-left: 2%;
+    margin-top: 5%;
+    height: 40px;
+    font-size: 18px;
+}

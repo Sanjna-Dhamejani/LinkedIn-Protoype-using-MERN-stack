@@ -1,0 +1,71 @@
+var UserInfo = require('../../models/userInfo').users
+var Application = require('../../models/application')
+var Job = require('../../models/job')
+var Message = require('../../models/message')
+<<<<<<< HEAD
+=======
+var mongoose1 = require('mongoose');
+
+>>>>>>> development
+
+function handle_request(msg, callback) {
+
+    console.log("\n\nInside kafka backend for getting job details")
+<<<<<<< HEAD
+    console.log("\n\n User data is-msg: ", msg)
+    console.log("\n\n User data is-jobid: ", msg.jobID)
+=======
+    console.log("\n\n User data is: ", msg.jobId)
+
+    // Job.findById(msg.jobId)
+    // .populate('postedBy')
+    // .populate('applications')
+    // .populate('jobSaved')
+    // .exec()
+    //     .then(result => {
+    //         callback(null,result)
+
+    //     })
+    //     .catch(err => {
+    //         callback(err,err)
+    //     })
+
+
+>>>>>>> development
+
+
+
+    const jobId = msg.jobId
+    // const jobId = mongoose1.Types.ObjectId(msg.jobId)
+    console.log("___________jobid_________", jobId, "\n_______________________type", typeof jobId)
+   
+    Job.findOneAndUpdate(
+        { "_id": jobId },
+        { $inc: { "noOfViews": 1 } }
+    )
+        .populate('postedBy')
+        .populate('applications')
+        .populate('jobSaved')
+        .exec()
+        .then(result => {
+<<<<<<< HEAD
+            console.log(result);
+            callback(null,result)
+        })
+        .catch(err => {
+            console.log(err);
+            callback(err,err)
+=======
+            console.log("____________result__________", result)
+            callback(null, result)
+
+        })
+        .catch(err => {
+            console.log("_____________err______________---")
+            callback(err, err)
+>>>>>>> development
+        })
+
+
+}
+exports.handle_request = handle_request;

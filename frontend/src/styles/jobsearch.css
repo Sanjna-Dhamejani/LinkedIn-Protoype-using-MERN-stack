@@ -1,0 +1,144 @@
+  
+  .jobs-landing-header-container {
+    width: 100%;
+    background: #5c6f7c;
+    /* padding: 0 0 12px; */
+    height:65px;
+    display: block;
+  }
+  
+  .t-09 {
+    font-size: 0.8rem;
+    line-height: 1.42857;
+  }
+  .t-normal {
+    font-weight: 400;
+  }
+  .t-white {
+    color: #fff;
+  }
+  
+  .pull-center{
+      padding-left: 13%;
+      padding-right: 13%
+  }
+  
+  .pull-center-1 {
+    padding-left: 13%;
+  }
+  
+  .pull-center-2 {
+    padding-right: 13%;
+  }
+
+  .container-jobsearch{
+      width:72%;
+      margin-left: 12%;
+      border : 1px solid #dee2e6;
+      margin-top: 2%;    
+      box-shadow: 0px 0px 5px grey;
+      height: 680px;
+  }
+
+.col-md-3{
+ box-shadow:  0px 0px 6px 0px rgba(0,0,0,0.2);
+ width:23.5%;
+ margin-left: 1%;
+}
+
+.JobsInterestedJobSearch{
+margin-left: 2%;
+margin-top: 2%;
+margin-bottom: 2.5%;
+}
+
+.jobsearchrow{
+    height:800px;
+    margin-left: 2%;
+}
+
+  .linkedin-post-job{
+      background-color: #0073b1;
+      border: 0;
+      border-radius: 2px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      height: 30px;
+      line-height: 30px;
+      outline-width: 2px;
+      padding: 0 16px;
+      margin-top: 0.2% 
+    
+  }
+  
+  .jobs-landing-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+    .margin-1-pc{
+      margin: 1%
+    }
+  
+  .jobs-landing-bar-container {
+      background :white;
+      width: 95%;
+      border : 1px solid #dee2e6;
+      font-size: 14px;
+      height: 60px;
+      box-shadow: 0px 0px 10px grey;
+      display: inline-block;
+      text-align: center;
+      margin-top: 2%;
+  }
+  
+.links-to-savedandapplied{
+    margin-top: 1.2%;
+}
+
+  .pad-6-pc{
+     margin-left: 30%;
+     color:rgb(23, 80, 146);
+     font-weight: 600;
+  }
+  
+  .jobs-landing-wrapper-div{
+      margin-top: 1%;
+      /* margin-left: 12%; */
+      border : 2px solid #dee2e6;
+      width: 76%;
+      box-shadow: 2px 2px 2px grey;
+      
+  }
+  
+  .jobs
+  {
+    margin-left : 12%;
+    height : 40px;
+    width: 32%
+  }
+  
+  .location
+  {
+    height: 40px;
+    width : 32%
+  }
+  
+  .white-outline {
+    color: white; /* Text color */
+    background: transparent; /* Remove background color */
+    border: 1px solid white;
+    width: 110px;
+    height: 40px;
+    margin-top: -0.5%;
+  }
+  
+  .pad-top-1-pc{
+    padding-top: 1%
+  }
+  
+  .card-img-top{
+    width:40%
+  }

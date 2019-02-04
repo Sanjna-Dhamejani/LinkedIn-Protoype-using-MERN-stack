@@ -1,0 +1,139 @@
+#mainbody{
+    background-color: #F8F9F9 ;
+}
+
+.left-content{
+    margin-top : 90px;
+    background-color: white;
+    margin-left : 90px;
+    margin-bottom : 20px;
+    min-height : 200px;
+    border: 1px solid #B2B1B1;
+}
+
+.right-content{
+    margin-top : 90px;
+    margin-left : 30px;
+    margin-bottom : 20px;
+    background-color: white;
+    min-height : 200px;
+    border: 1px solid #B2B1B1;
+}
+
+.heading{
+    border: 1px solid #B2B1B1;
+    min-height : 60px; 
+}
+
+.title{
+    font-size: 25px;
+}
+
+.linebreak {
+    border: none;
+    height: 1px;
+    background-color: #B2B1B1;
+    /* background-color: black; */
+    width: calc(100% + 30px);
+    position: relative;
+    left: -15px;
+}
+
+.linebreak1 {
+    border: none;
+    height: 1px;
+    background-color: #B2B1B1;
+    /* background-color: black; */
+    width: calc(100% + 30px);
+    position: relative;
+    left: -15px;
+}
+
+.search-bar{
+    margin : 20px 0px 0px 20px;
+    width : 100%;
+    height : 45px;
+    border : 1px solid #B2B1B1;
+}
+
+.go-button{
+    width: 80px;
+    height : 45px;
+    font-size: 20px; 
+    margin-left: 10px;
+    margin-top : 20px;
+}
+
+.edit-button{
+    width: 60px;
+    height : 34px;
+    /* font-size: 20px;  */
+    margin-right: 10px;
+    margin-top : 10px;
+    /* padding : 7px; */
+    float : right;
+}
+
+.graph-button{
+    width: 120px;
+    height : 34px;
+    margin-right: 10px;
+    margin-left: 7px;
+    margin-top : 10px;
+    float : right;
+}
+
+.edit-button-text{
+    font-size : 17px;
+}
+
+.giftimage{
+    margin-left: 15px;
+    margin-top : 10px;
+}
+
+.para {
+    margin-left : 10px;
+    font-size : 20px;
+}
+
+.button1{
+    width : 90%;
+    height : 40px;
+    color : #0073b1;
+    background-color: white;
+    border : 2px solid #0073b1;
+    margin-left : 20px;
+    margin-bottom : 20px;
+}
+
+.job-listing{
+    margin-left : 15px;
+    margin-top : 10px;
+}
+
+.joblisttitle{
+    color : #0073b1;
+    font-size : 20px;
+    font-weight: bold;
+}
+
+.paragraph{
+    font-size : 15px;
+}
+
+.jobpostlinksnavbar{
+    text-align: center;
+    margin-left: 17.5%;
+    margin-top: 1.5%; 
+}
+
+.linkinjobpostheader{
+    color:white;
+    font-size: 15px;
+}
+
+.JobPostHeader{
+    background-color: #006097;
+    margin-top : 0px;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "kafka-node": "^3.0.1",
+    "mongoose": "^5.3.13",
+    "morgan": "~1.9.0",
+    "mysql": "^2.16.0",
+<<<<<<< HEAD
+    "nodemon": "^1.18.6",
+    "session": "^0.1.0"
+=======
+    "redis": "^2.8.0"
+>>>>>>> development
+  }
+}
