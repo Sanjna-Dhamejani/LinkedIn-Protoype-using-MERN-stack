@@ -12,6 +12,6 @@
     "bcryptjs": "^2.4.3",
     "kafka-node": "^3.0.1",
     "mongoose": "^5.3.13",
-    "redis": "^2.8.0"
+    "redis": "^3.1.1"
   }
 }
